@@ -1,0 +1,52 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# --- Virtual Environments ---
+.env
+.venv
+venv/
+ENV/
+env/
+*.env
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.iml
+
+# --- Pytest & Coverage ---
+.pytest_cache/
+.cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# --- Playwright ---
+test-results/
+playwright-report/
+blob-report/
+trace.zip
+*.zip
+*.webm
+
+# --- Logs ---
+*.log
+*.out
+*.err
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
