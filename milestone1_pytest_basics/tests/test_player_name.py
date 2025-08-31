@@ -1,4 +1,4 @@
-from milestone1_pytest_basics.test_player import player_name_count, return_player_name_for_input_check
+from milestone1_pytest_basics.player import player_name_count, return_player_name_for_input_check
 
 
 def test_player_name_max_characters():

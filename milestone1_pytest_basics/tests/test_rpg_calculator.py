@@ -1,4 +1,4 @@
-from milestone1_pytest_basics.test_rpg_calculator import take_damage, remove_damage, critical_hit, missed_hit, attack
+from milestone1_pytest_basics.rpg_calculator import take_damage, remove_damage, critical_hit, missed_hit, attack
 
 
 def test_take_damage_pass():
