@@ -10,9 +10,8 @@ def critical_hit(a, b):
 def blocked(a, b):
     return a / b
 
-def missed_hit(a, b):
+def missed_hit(a):
     a = 0
-    b = 0
     return 0
 
 def attack(a, b):

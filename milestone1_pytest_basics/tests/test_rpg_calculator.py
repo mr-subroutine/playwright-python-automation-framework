@@ -14,8 +14,8 @@ def test_critical_hit():
     print("Player got a critical hit!  Test Passed.")
 
 def test_missed_hit():
-    assert missed_hit(5, 5) == 0
-    print("Player died. RIP! Test Passed.")
+    assert missed_hit(25) == 0
+    print("The enemy has missed a hit.  Test Passed.")
 
 def test_attack():
     assert attack(10, 8) == 18
