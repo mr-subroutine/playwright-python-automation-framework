@@ -6,6 +6,7 @@ def test_player_name_max_characters():
     print(f"The count is: {count}")
     assert count <= 8
 
+
 def test_player_name_required_characters():
     name_count = 0
     name = return_player_name_for_input_check("One")  # change name_character argument must have name, fails when no named entered.
