@@ -29,11 +29,11 @@ def test_create_post(playwright: Playwright):
         f"Expected 201 Created, got {response.status}"
     )
 
-    created = response.json()  # parse the response JSON into a Python dict named `created`
+    created = response.json()
 
-    assert created["title"] == payload["title"]  # the API echoes back the title we sent
-    assert created["body"] == payload["body"]  # the API echoes back the body we sent
-    assert created["userId"] == payload["userId"]  # the API echoes back the userId we sent
-    assert "id" in created  # JSONPlaceholder returns a fake `id` field for the created resource
+    assert created["title"] == payload["title"]
+    assert created["body"] == payload["body"]
+    assert created["userId"] == payload["userId"]
+    assert "id" in created
 
     request.dispose()

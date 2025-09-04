@@ -1,8 +1,8 @@
-from milestone1_pytest_basics.rpg_calculator import take_damage, remove_damage, critical_hit, missed_hit, attack
+from milestone1_pytest_basics.rpg_calculator import take_damage, remove_damage, critical_hit, missed_hit, attack, health
 
 
 def test_take_damage_pass():
-    assert take_damage(5, 5) == 10
+    assert take_damage(5, 5, 20) == 10
     print("Player lost 10 HP.}.  Test Passed.")
 
 
@@ -24,3 +24,6 @@ def test_missed_hit():
 def test_attack():
     assert attack(10, 8) == 18
     print("Player attacks for 18 damage.  Test Passed.")
+
+def test_player_health():
+    assert health(10, 12) == True
