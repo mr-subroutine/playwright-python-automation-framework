@@ -54,7 +54,7 @@ pytest milestone2_ui_flows
 - **Playwright** – browser automation & API testing
 
 ## 📌 Roadmap
-- [x] Milestone 1: Pytest basics  (Testing RPG Functions)
+- [x] Milestone 1: Pytest basics  (Testing Mock RPG Functions)
 - [x] Milestone 2: Playwright UI flows  
 - [x] Milestone 3: Playwright API tests  
 - [ ] Add CI/CD with GitHub Actions  
